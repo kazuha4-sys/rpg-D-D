@@ -1,10 +1,11 @@
+#-REGRAS: Caso queria alterar algo, pode so me avisa oq é e qual alteraçao vai fazer, é isso bj
 #copyright @ Kauan, Enzo 2024 
 #importa as bibliotecas 
 from random import choice as r, randint as rint
 import os 
 import time as t
 
-#sons = os.listdir("audio.mp3")
+#sons = os.listdir("audio.mp3") esta em desenvolvimento, porem se quiser baixar o audio é: https://www.youtube.com/watch?v=CKA1zCwcYBE baixa e manda
 
 print("""
 

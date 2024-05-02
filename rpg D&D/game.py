@@ -15,7 +15,7 @@
 # KAUAN
 # - Número de telefone: +XX XXX XXX XXXX
 # - E-mail: exemplo@gmail.com
-# - Github: 
+# - Github: https://github.com/kazuha4-sys
 
 # ENZO
 # - Número de telefone: +XX XXX XXX XXXX
@@ -71,9 +71,16 @@ def historia():
     t.sleep(2)
     print("olá, tio Bem")
     t.sleep(2)
-    nome = input("Hmm, olá:  ")    
+    nome = input("Hmm, olá:  ") 
+    class_personagem = {
+            "guerreiro",
+            "mago",
+            "arqueiro",
+            "Elfo"
+            "Demonio"
+        }
     t.sleep(1)
-    print("pegue suas coisas " + nome)
+    print("pegue suas coisas " + nome + classe)
     t.sleep(1)
     print("Escolha sua arma:")
 
